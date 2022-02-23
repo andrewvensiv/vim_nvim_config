@@ -18,5 +18,5 @@ But ... you get all of the productivity of vim 🥷🏽
         }
         ```
 - Install
-    - Run `:PlugInstall` with editor opened
-    - Run `:CocInstall coc-pyright coc-jedi coc-prettier coc-eslint coc-tslint-plugin coc-tslint coc-tsserver coc-json coc-javascript coc-vimlsp` with editor opened
+    - Run `:PlugInstall`
+    - Run `:CocInstall coc-pyright coc-jedi coc-prettier coc-eslint coc-tslint-plugin coc-tslint coc-tsserver coc-json coc-javascript coc-vimlsp`
