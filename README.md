@@ -10,6 +10,13 @@ But ... you get all of the productivity of vim 🥷🏽
         let &packpath = &runtimepath
         source ~/.vimrc
         ```
+- Add format on save to CocConfig
+    - Run `:CocConfig`
+        ```
+        {
+            "coc.preferences.formatOnSaveFiletypes" : ["css", "markdown", "javascript", "graphql", "html", "javascriptreact", "typescript", "typescriptreact", "python"]
+        }
+        ```
 - Install
     - Run `:PlugInstall` with editor opened
-    - Run `:CocInstall coc-python coc-prettier coc-eslint coc-tslint-plugin coc-tslint coc-tsserver coc-json coc-javascript coc-vimlsp` with editor opened
+    - Run `:CocInstall coc-pyright coc-jedi coc-prettier coc-eslint coc-tslint-plugin coc-tslint coc-tsserver coc-json coc-javascript coc-vimlsp` with editor opened
