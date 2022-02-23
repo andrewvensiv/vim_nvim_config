@@ -4,7 +4,7 @@ My nvim/vim configuration for django/python, react/js. Simulates similar extensi
 But ... you get all of the productivity of vim 🥷🏽
 
 - Make sure you have your .nvim configuration sourcing .vimrc
-    - In `~/.config/nvim/init.vim` enter the following:
+    - In `~/.config/nvim/init.vim` add the following:
         ```
         set runtimepath^=~/.vim runtimepath+=~/.vim/after
         let &packpath = &runtimepath
